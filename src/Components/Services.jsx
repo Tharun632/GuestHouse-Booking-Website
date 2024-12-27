@@ -13,7 +13,7 @@ const Services = () => {
           </p>
           <h1 class="md:text-6xl text-5xl font-bold text-slate-900 md:mb-8 mb-8">Strive Only For The <br/>Best.
           </h1>
-          <ul class="text-2xl font-semibold md:flex md:flex-col flex flex-col space-y-20 md:space-y-24">
+          <ul class="text-2xl font-semibold md:flex md:flex-col flex flex-col space-y-16 md:space-y-24">
             <li class="flex items-center gap-4">
               <span class="text-blue-500 rounded-full p-4 bg-blue-200">
                 <RiShieldStarLine size={32}/>
