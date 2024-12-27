@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media (orientation: portrait){
+    .container{
+        flex-direction: column;
+    }
+    .item{
+        width: 80%;
+    }
+
+}
+
+@media(orientation: landscape){
+    .container{
+        flex-direction: row;
+    }
+    .item{
+        width: 40%;
+    }
+
+}
